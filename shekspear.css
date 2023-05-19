@@ -1,8 +1,15 @@
 .image_frame{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
     flex-direction: row;
     justify-items: flex-start;
-    width: 700px;
-    height: 250px;
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.anna2{
+    height: 156px;
+    width: 130px;
 }
