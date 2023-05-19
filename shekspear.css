@@ -42,8 +42,10 @@
 }
 
 .shakespeare1{
-    width: 300px;
-    height: 367px;
+    width: 279px;
+    height: 356px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .main_table{
