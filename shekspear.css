@@ -3,10 +3,12 @@
     justify-content: space-around;
     flex-direction: row;
     justify-items: flex-start;
-    width: 800px;
+    width: 900px;
     height: 200px;
     border: 1px solid black;
     padding-left: 20px;
+    font-size: 14px;
+    padding-top: 15px;
 }
 
 .anna2{
@@ -25,6 +27,11 @@
 }
 
 .cervantes2{
+    height: 154px;
+    width: 118px;
+}
+
+.poe2{
     height: 154px;
     width: 118px;
 }
