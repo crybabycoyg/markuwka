@@ -1,6 +1,6 @@
 .image_frame{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     justify-items: flex-start;
     width: 800px;
@@ -10,6 +10,11 @@
 }
 
 .anna2{
+    height: 156px;
+    width: 130px;
+}
+
+.charles2{
     height: 156px;
     width: 130px;
 }
