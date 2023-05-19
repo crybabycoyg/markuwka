@@ -1,0 +1,8 @@
+.image_frame{
+    display: flex;
+    justify-content: space-between
+    flex-direction: row;
+    justify-items: flex-start;
+    width: 700px;
+    height: 250px;
+}
