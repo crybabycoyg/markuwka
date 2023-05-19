@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-items: flex-start;
     width: 900px;
-    height: 200px;
+    height: 215px;
     border: 1px solid black;
     padding-left: 20px;
     font-size: 14px;
@@ -34,4 +34,26 @@
 .poe2{
     height: 154px;
     width: 118px;
+}
+
+.wordsworth2{
+    height: 154px;
+    width: 118px;
+}
+
+.shakespeare1{
+    width: 250px;
+    height: 325px;
+}
+
+.main_table{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container_third{
+    min-width: 250px;
+    border: 1px solid grey;
+    max-height: 550px;
+    margin-top: 15px;
 }
