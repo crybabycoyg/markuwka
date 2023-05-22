@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,10 +7,30 @@ body{
     padding: 0;
 }
 
-.slider{
+.slider {
     position: relative;
     background: #f4f4f4;
     border-radius: 8px;
     width: 610px;
     height: 18px;
+}
+
+output {
+    position: absolute;
+    left: -20px;
+    top: -40px;
+    padding: 7px 10px;
+    background: #76de76;
+    color: #fff;
+    border-radius: 10px 10px 0 10px;
+    font-weight: bold;
+}
+
+#fader {
+    position: relative;
+    left: 3px;
+    width: 600px;
+    height: 10px;
+    background: #76de76;
+    -webkit-appearance: 0;
 }
