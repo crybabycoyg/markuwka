@@ -59,6 +59,7 @@
     max-height: 550px;
     margin-top: 15px;
     background-color: grey;
+    opacity: inherit;
 }
 
 
