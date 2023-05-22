@@ -55,10 +55,9 @@
 
 .container_third{
     min-width: 250px;
-    border: 1px solid black;
     max-height: 550px;
     margin-top: 15px;
-    background-color: grey;
+    background-color: #E0FFFF;
 }
 
 
