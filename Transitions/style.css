@@ -11,5 +11,5 @@ body{
     border-radius: 25%;
     background-color: blueviolet;
     border: 2px solid blue;
-    transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
 }
