@@ -1,0 +1,15 @@
+body{
+    background-color: burlywood;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    border-radius: 25%;
+    background-color: blueviolet;
+    border: 2px solid blue;
+    transform: translate(-50%, -50%);
+}
