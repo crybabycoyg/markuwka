@@ -24,16 +24,21 @@
     border-radius: 50%;
     height: 8px;
     background: #747;
+    transform: translate(-50%,-50%);
 }
 
 .hh{
     width: 80px;
     height: 8px;
+    transform: translate(-50%) rotate(-90deg);
+    background-color: blue;
 }
 
 .mm{
     width: 100px;
     height: 8px;
+    background-color: black;
+    transform: translate(-50%);
 }
 
 .ss{
