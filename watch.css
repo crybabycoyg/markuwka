@@ -31,10 +31,11 @@
 }
 
 .mm{
-    width: 100px;
-    height: 8px;
+    width: 6px;
+    height: 100px;
     background-color: black;
-    transform: translate(-50%);
+    transform: translate(-50%); rotate: (-180deg);
+    transform-origin: 0 0;
 }
 
 .ss{
