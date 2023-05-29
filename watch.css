@@ -45,7 +45,7 @@
     background-color: red;
     transform-origin: 0 50%;
     transform: translate(0,-50%) rotate(-90deg);
-    animation: clock 60s linear;
+    animation: clock 60s linear infinite;
     border-radius: 10px;
 }
 
