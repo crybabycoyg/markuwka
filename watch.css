@@ -40,12 +40,12 @@
 }
 
 .ss{
-    width: 153px;
+    width: 142px;
     height: 7px;
     background-color: red;
     transform-origin: 0 50%;
     transform: translate(0,-50%) rotate(-90deg);
-    animation: clock 60s linear infinite;
+    animation: clock 60s steps(60) infinite;
     border-radius: 10px;
 }
 
