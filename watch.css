@@ -11,12 +11,8 @@
 
 .main div{
     position: absolute;
-    width: 5px;
-    height: 5px;
-    background: #444;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .dot{
