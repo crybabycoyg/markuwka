@@ -1,0 +1,12 @@
+.block {
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+}
+
+.block_inside{
+    height: 200px;
+    background-color: aquamarine;
+    width: 100%;
+}
