@@ -17,12 +17,12 @@ html{
 
 .block {
     background-color: blue;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: 0px auto;
     padding: 20px;
     height: 100vh;
     box-sizing: border-box;
-    width: 80%;
+    /* width: 80%; */ 
     font-size: 1.6rem;
 }
 
