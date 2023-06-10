@@ -12,7 +12,7 @@ body{
 }
 
 
-.pos {
+img {
     position: absolute;
     border: 3px double red;
     border-radius: 8px;
@@ -22,24 +22,25 @@ body{
     cursor: pointer;
 }
 
-.pos1{
+div {
+    display: block;
+}
+
+.pos_pos1{
+    max-width: 250px;
+    max-height: 400px;
     left: 20%;
     top: 60px;
-    background-image: url(https://media.kg-portal.ru/movies/n/northman/posters/northman_13.jpg);
 }
 
-.pos2{
+
+.pos_pos2{
     left: 28%;
     top: 130px;
-    background: url(https://s4.stc.all.kpcdn.net/putevoditel/serialy/wp-content/uploads/2022/02/RU_VikingsValhalla_Main_Vertical_27x40_RGB_PRE20220119-5405-1ew1g8r-467x697.jpg);
+    max-width: 250px;
+    max-height: 400px;
 }
 
-.pos3{
-    left: 50%;
-    top: 20px;
-}
-
-.pos4{
-    left: 43%;
-    top: 210px;
+.pos_pos3{
+    
 }
