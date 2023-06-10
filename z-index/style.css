@@ -47,3 +47,17 @@ div {
     max-width: 250px;
     max-height: 400px;
 }
+
+
+pos4 {
+    left: 43%;
+    top: 210px;
+
+
+    position: absolute;
+    border: 3px double #0c800c;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
