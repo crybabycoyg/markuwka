@@ -1,24 +1,48 @@
 div {
-    margin: 20px auto;
     padding: 20px;
     max-width: 600px;
     border: 1px solid grey;
 }
 
+.position div{
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.overlay {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: gray;
+    opacity: 0.3;
+    right: 0;
+    max-width: 100%;
+}
+
+.sticky{
+    width: 100px;
+    margin: 0 0 0 auto;
+    position: sticky;
+    background-color: lightseagreen;
+    top: 0;
+    z-index: 1;
+    left: 0;
+}
+
+.sticky_bottom{
+    top: auto;
+    bottom: 0;
+    background-color: green;
+}
+
 .position {
     position: relative;
     background-color: white;
-    /* top: 0;
-    left: 0;
-    bottom: 0; */
-    transform: translate(-10%, 10%);
-}
-
-.position div {
-    background: gray;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    bottom: 0;
+    bottom: -100px;
+    left: 20px;
 }
