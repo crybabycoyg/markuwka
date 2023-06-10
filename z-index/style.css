@@ -26,7 +26,7 @@ div {
     display: block;
 }
 
-.pos_pos1{
+.vik_vik1{
     max-width: 250px;
     max-height: 400px;
     left: 20%;
@@ -34,13 +34,16 @@ div {
 }
 
 
-.pos_pos2{
+.vik_vik2{
     left: 28%;
     top: 130px;
     max-width: 250px;
     max-height: 400px;
 }
 
-.pos_pos3{
-    
+.vik_vik3{
+    left: 50%;
+    top: 20px;
+    max-width: 250px;
+    max-height: 400px;
 }
