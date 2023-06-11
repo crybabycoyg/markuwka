@@ -1,6 +1,8 @@
 body{
     display: block;
     margin: 8px;
+    background-image: url(https://www.rabstol.net/uploads/gallery/main/229/rabstol_net_flags_52.jpg);
+    background-size: cover;
 }
 
 
@@ -14,10 +16,10 @@ body{
 
 img {
     position: absolute;
-    border: 3px double red;
+    border: 3px solid black;
     border-radius: 8px;
     padding: 2px;
-    background-color: white;
+    background-color: black;
     box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);
     cursor: pointer;
 }
@@ -30,7 +32,8 @@ div {
     max-width: 250px;
     max-height: 400px;
     left: 20%;
-    top: 60px;
+    top: 75px;
+    transition: 1s;
 }
 
 
@@ -39,25 +42,47 @@ div {
     top: 130px;
     max-width: 250px;
     max-height: 400px;
+    transition: 1s;
 }
 
 .vik_vik3{
     left: 50%;
-    top: 20px;
+    top: 70px;
     max-width: 250px;
     max-height: 400px;
+    transition: 1s;
 }
 
 
-pos4 {
+.vik_vik4 {
     left: 43%;
     top: 210px;
+    max-width: 250px;
+    max-height: 400px;
+    transition: 1s;
+}
+
+.vik_vik1:hover{
+    filter: grayscale(0);
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.vik_vik2:hover{
+    filter: grayscale(0);
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.vik_vik3:hover{
+    filter: grayscale(0);
+    transform: scale(1.5);
+    opacity: 1;
+}
 
 
-    position: absolute;
-    border: 3px double #0c800c;
-    border-radius: 8px;
-    padding: 2px;
-    background-color: #fff;
-    box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);
-    cursor: pointer;
+.vik_vik4:hover{
+    filter: grayscale(0);
+    transform: scale(1.5);
+    opacity: 1;
+}
