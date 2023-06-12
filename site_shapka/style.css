@@ -59,10 +59,12 @@ body{
 }
 
 .main_content{
-    flex-direction: row;
-    display: flex;
     text-transform: uppercase;
-    justify-content: ;
-    align-items: ;
     background-color: rgb(95, 15, 46);
+    width: 40%;
+    left: 23%;
+    margin: 0 auto;
+    top: 166px;
+    position: absolute;
+    height: 27%;
 }
