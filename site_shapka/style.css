@@ -16,10 +16,11 @@ body{
     background-color: rgb(133, 0, 62);
     color: white;
     text-transform: uppercase;
-    height: 40px;
-    padding-left: 30px;
-    margin-top: 20px;
-    padding-top: 30px;
+    height: 6%;
+    width: 79.5%;
+    left: 10.2%;
+    top: 4px;
+    position: absolute;
 }
 
 .menu{
