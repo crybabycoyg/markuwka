@@ -27,36 +27,35 @@ body{
     background-color: rgb(133, 0, 62);
     color: white;
     text-transform: uppercase;
-    padding: 10px;
-    margin-top: 15px;
     height: 20px;
-    padding-left: 30px;
+    top: 67px;
+    position: absolute;
+    width: 79.4%;
+    left: 10.3%;
 }
 
 .aside1{
-    background-color: brown;
+    background-color: purple;
     color: white;
     text-transform: uppercase;
-    width: 15%;
-    height: 100px;
-    margin-top: 20px;
-    padding-left: 32px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 17%;
+    height: 15%;
+    position: absolute;
+    left: 10.3%;
+    top: 96px;
+    text-align: center;
 }
 
 .aside2{
-    background-color: brown;
+    background-color: blue;
     color: white;
     text-transform: uppercase;
-    width: 15%;
-    height: 140px;
-    margin-top: 20px;
-    padding-left: 32px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 17%;
+    height: 17.6%;
+    position: absolute;
+    left: 10.3%;
+    top: 253px;
+    text-align: center;
 }
 
 .main_content{
@@ -68,4 +67,14 @@ body{
     top: 168px;
     position: absolute;
     height: 26.5%;
+    text-align: center;
+}
+
+.section1{
+    background-color: white;
+}
+
+
+.section2{
+    background-color: white;
 }
