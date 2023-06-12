@@ -5,7 +5,7 @@ body{
     background: burlywood;
     font-weight: 700;
     background-image: url(https://foni.club/uploads/posts/2023-02/1676686320_foni-club-p-oboi-yarkie-4k-na-pk-2.jpg);
-    background-size: cover;
+    background-size: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,8 +34,8 @@ body{
     background-color: rgb(255 128 37);
     color: white;
     text-transform: uppercase;
-    height: 20px;
-    top: 67px;
+    height: 25px;
+    top: 72px;
     position: absolute;
     width: 79.4%;
     left: 10.3%;
@@ -51,7 +51,7 @@ body{
     height: 15%;
     position: absolute;
     left: 10.3%;
-    top: 96px;
+    top: 101px;
     text-align: center;
     border-radius: 5px;
 }
@@ -61,10 +61,10 @@ body{
     color: white;
     text-transform: uppercase;
     width: 17%;
-    height: 17.6%;
+    height: 23.6%;
     position: absolute;
     left: 10.3%;
-    top: 253px;
+    top: 278px;
     text-align: center;
     border-radius: 5px;
 }
@@ -88,7 +88,7 @@ body{
     color: white;
     text-transform: uppercase;
     width: 16.4%;
-    height: 27.6%;
+    height: 39.6%;
     position: absolute;
     left: 73.3%;
     top: 102px;
@@ -102,7 +102,7 @@ body{
     width: 72%;
     left: 13.3%;
     margin: 0px auto;
-    top: 33px;
+    top: 30px;
     position: absolute;
     height: 42%;
     text-align: center;
@@ -117,9 +117,9 @@ body{
     width: 72%;
     left: 13.3%;
     margin: 0px auto;
-    top: 206px;
+    top: 221px;
     position: absolute;
-    height: 42%;
+    height: 46%;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -133,7 +133,7 @@ body{
     height: 4.6%;
     position: absolute;
     left: 10.3%;
-    top: 500px;
+    top: 544px;
     text-align: center;
     border-radius: 5px;
     color: white;
