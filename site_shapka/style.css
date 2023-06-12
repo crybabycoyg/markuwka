@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body{
     margin: 0;
-    background-color: gray;
-    font-size: bold;
+    background: burlywood;
     font-weight: 700;
+    background-image: url(https://foni.club/uploads/posts/2023-02/1676686320_foni-club-p-oboi-yarkie-4k-na-pk-2.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -10,10 +14,11 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
-    background-color: rgb(133, 0, 62);
+    background-color: blueviolet;
     color: white;
     text-transform: uppercase;
     height: 6%;
@@ -21,10 +26,12 @@ body{
     left: 10.2%;
     top: 4px;
     position: absolute;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .menu{
-    background-color: rgb(133, 0, 62);
+    background-color: rgb(255 128 37);
     color: white;
     text-transform: uppercase;
     height: 20px;
@@ -32,10 +39,12 @@ body{
     position: absolute;
     width: 79.4%;
     left: 10.3%;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .aside1{
-    background-color: purple;
+    background-color: #d2d500;
     color: white;
     text-transform: uppercase;
     width: 17%;
@@ -44,6 +53,7 @@ body{
     left: 10.3%;
     top: 96px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .aside2{
@@ -56,25 +66,75 @@ body{
     left: 10.3%;
     top: 253px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .main_content{
     text-transform: uppercase;
-    background-color: rgb(95, 15, 46);
-    width: 40%;
-    left: 32%;
+    background-color: aquamarine;
+    width: 44%;
+    left: 28.3%;
     margin: 0 auto;
-    top: 168px;
+    top: 101px;
     position: absolute;
-    height: 26.5%;
+    height: 40%;
     text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.aside3{
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+    width: 16.4%;
+    height: 27.6%;
+    position: absolute;
+    left: 73.3%;
+    top: 102px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .section1{
-    background-color: white;
+    background-color: forestgreen;
+    text-transform: uppercase;
+    width: 72%;
+    left: 13.3%;
+    margin: 0px auto;
+    top: 33px;
+    position: absolute;
+    height: 42%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
 }
 
 
 .section2{
-    background-color: white;
+    background-color: fuchsia;
+    text-transform: uppercase;
+    width: 72%;
+    left: 13.3%;
+    margin: 0px auto;
+    top: 206px;
+    position: absolute;
+    height: 42%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.footer{
+    background-color: rgb(177, 0, 98);
+    text-transform: uppercase;
+    width: 79.4%;
+    height: 4.6%;
+    position: absolute;
+    left: 10.3%;
+    top: 500px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
 }
