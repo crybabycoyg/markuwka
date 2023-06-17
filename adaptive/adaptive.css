@@ -70,6 +70,9 @@
           width: 160px;
       }
 
+      .img{
+          height: 200px;
+      }
   }
 
   @media screen and (max-width:768px){
@@ -79,5 +82,15 @@
 
       .content{
           flex-direction: column;
+      }
+
+      aside{
+          width: 100%;
+          margin: 10px 0;
+          box-sizing: border-box;
+      }
+
+      .aife{
+          align-items: flex-start;
       }
   }
