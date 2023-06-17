@@ -52,3 +52,32 @@
     padding: 0;
     list-style: none;
   }
+
+  .topFinder{
+      display: none;
+  }
+  
+  
+  @media screen and (max-width:1024px){
+      .topFinder{
+          display: inline;
+      }
+      .navFinder{
+          display: none;
+      }
+
+      aside {
+          width: 160px;
+      }
+
+  }
+
+  @media screen and (max-width:768px){
+      .list{
+          display: none;
+      }
+
+      .content{
+          flex-direction: column;
+      }
+  }
