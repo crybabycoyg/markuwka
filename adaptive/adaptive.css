@@ -93,4 +93,8 @@
       .aife{
           align-items: flex-start;
       }
+
+      aside>.flex {
+        flex-wrap:nowrap;
+      }
   }
