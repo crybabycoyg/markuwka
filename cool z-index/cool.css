@@ -1,15 +1,33 @@
 body{
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     background-color: aquamarine;
 }
 
 
+.image{
+    width: 18%;
+    height: 31%;
+    position: absolute;
+    left: 40.3%;
+    top: 250px;
+    background-size: cover;
+    border: 15px solid white;
+    z-index: 4;
+}
+
+img{
+width: 100%;
+height: 100%;
+}
 
 .line1{
-    background-color: white;
-    width: 17%;
-    height: 15%;
+    width: 22%;
+    height: 2.5%;
     position: absolute;
-    left: 10.3%;
-    top: 101px;
-    border-radius: 5px solid white;
+    left: 46.3%;
+    top: 324px;
+    background-color: rgb(255, 86, 157);
+    transform: rotate(50deg);
 }
