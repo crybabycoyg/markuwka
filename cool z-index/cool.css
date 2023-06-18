@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+}
+
+
+
+.line1{
+    background-color: white;
+    width: 17%;
+    height: 15%;
+    position: absolute;
+    left: 10.3%;
+    top: 101px;
+    border-radius: 5px solid white;
+}
