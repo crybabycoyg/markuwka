@@ -6,12 +6,20 @@ body{
 }
 
 
+.container{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    position: relative;
+}
+
+
 .image{
     width: 18%;
     height: 31%;
-    position: absolute;
-    left: 40.3%;
-    top: 250px;
+    position: relative;
+    left: 39.3%;
+    top: 274px;
     background-size: cover;
     border: 15px solid white;
     z-index: 4;
@@ -28,6 +36,41 @@ height: 100%;
     position: absolute;
     left: 46.3%;
     top: 324px;
+    background-color: rgb(255, 86, 157);
+    transform: rotate(50deg);
+}
+
+
+.line2{
+    width: 22%;
+    height: 2.5%;
+    position: absolute;
+    left: 44.3%;
+    top: 613px;
+    background-color: rgb(255, 86, 157);
+    transform: rotate(140deg);
+}
+
+
+.line3{
+    width: 22.85%;
+    height: 2.5%;
+    position: absolute;
+    left: 30.7%;
+    top: 297px;
+    background-color: rgb(255, 86, 157);
+    transform: rotate(-40deg);
+}
+
+
+
+
+.line4{
+    width: 22%;
+    height: 2.5%;
+    position: absolute;
+    left: 29.7%;
+    top: 585px;
     background-color: rgb(255, 86, 157);
     transform: rotate(50deg);
 }
