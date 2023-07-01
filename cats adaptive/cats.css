@@ -69,6 +69,7 @@ body {
 }
 .img{
     grid-area: img;
+    margin-left: 40px
 }
 
 .cat1{
