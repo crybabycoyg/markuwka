@@ -1,21 +1,27 @@
 .container {
-    max-width: 1920px;
+    max-width: 1680px;
+    margin: 0 auto;
   }
 
 .cat_wikipedia{
     width: 19%;
     height: 22%;
-    top: -285px;
+    top: -272px;
     position: relative;
     border-radius: 10px 10px 10px 10px;
-    left: 105%;
+    left: 75%;
 }
 
 .cat_wikipedia2{
     width: 19%;
     height: 22%;
-    top: -255px;
+    top: -213px;
     position: relative;
-    border-radius: 10px 10px 10px 10px;
-    left: 105%;
+    border-radius: 10px;
+    left: 75%;
+}
+
+.text{
+    gap: 10px;
+    width: 50%;
 }
