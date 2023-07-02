@@ -103,3 +103,17 @@ body {
     display: grid;
     align-items: center;
 }
+
+
+
+
+@media screen and (max-width: 800px) {
+    .main_text {
+      width: 45%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .main_text{
+      width: 90%;
+    }
+}
