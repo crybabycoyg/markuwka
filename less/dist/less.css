@@ -1,15 +1,16 @@
 .container {
   max-width: 1000px;
   margin: 20px auto;
+  border-radius: 10px;
 }
 .container .content {
   background: bisque;
   padding: 20px;
 }
-.container h1 {
+.container .content h1 {
   font-size: 20px;
 }
-.container p {
+.container .content p {
   color: aqua;
 }
 @media screen and (max-width: 600px) {
