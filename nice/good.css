@@ -1,19 +1,17 @@
-.background {
-  background-image: url(//source.unsplash.com/Q7PclNhVRI0);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+.content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
 }
 
-.blur {
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  height: 100vh;
-  width: 50%;
-}
- 
-.multiple-filters {
-  backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+.bg {
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  filter: blur(5px);
+  background: url(http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/tropical_beach_paradise_5k_17484.jpg) no-repeat center;
+  background-size: cover;
 }
