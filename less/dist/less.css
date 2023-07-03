@@ -1,17 +1,30 @@
+.border {
+  border: 5px dotted bisque;
+}
+#center-border {
+  padding: 10px;
+}
 .container {
   max-width: 1000px;
-  margin: 20px auto;
+  background: bisque;
   border-radius: 10px;
+  margin: 20px auto;
 }
 .container .content {
   background: bisque;
   padding: 20px;
+}
+.container .content-active {
+  color: red;
 }
 .container .content h1 {
   font-size: 20px;
 }
 .container .content p {
   color: aqua;
+}
+.container .content p:hover {
+  color: blue;
 }
 @media screen and (max-width: 600px) {
   .container {

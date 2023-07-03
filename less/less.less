@@ -1,22 +1,39 @@
 @BgColor: bisque;
 @BorderRadius: 10px;
 
+@selector-class: border;
+@selector-id: center;
+
+.@{selector-class} {
+    border: 5px dotted @BgColor;
+}
+
+#@{selector-id}-@{selector-class} {
+    padding: 10px;
+}
+
 .container{
     max-width: 1000px;
-    @BgColor: bisque;
-    @BorderRadius: 10px;
+    background: bisque;
+    border-radius: @BorderRadius;
     margin: 20px auto;
 
     .content{
         background: @BgColor;
         padding: 20px;
-    }
-    h1{
-        font-size: 20px;
-    }
-    
-    p{
-        color: aqua;
+        &-active {
+            color: red;
+        }
+        h1{
+            font-size: 20px;
+        }
+        
+        p{
+            color: aqua;
+            &:hover {
+                color: blue;
+            }
+        }
     }
 }
 
@@ -24,7 +41,7 @@
 
 @media screen and (max-width:600px) {
     .container{
-        border-radius: @BorderRadius;
+        border-radius: 10px;
         margin: 10px auto;
         padding: 0 10px;
     
