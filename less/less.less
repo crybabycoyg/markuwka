@@ -1,15 +1,14 @@
-h1{
-    font-size: 25px;
-}
+@BgColor: bisque;
+@BorderRadius: 10px;
 
 .container{
     max-width: 1000px;
     background: bisque;
-    border-radius: 10px;
+    @BorderRadius: 10px;
     margin: 20px auto;
 
     .content{
-        background: bisque;
+        @BgColor: bisque;
         padding: 20px;
     }
     h1{
