@@ -3,6 +3,7 @@
   margin: 20px auto;
 }
 .container .content {
+  background: bisque;
   padding: 20px;
 }
 .container h1 {
@@ -10,4 +11,17 @@
 }
 .container p {
   color: aqua;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 0 10px;
+  }
+  .container .content {
+    padding: 10px;
+  }
+  .container h1 {
+    font-size: 15px;
+  }
 }
