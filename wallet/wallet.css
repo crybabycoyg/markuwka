@@ -75,6 +75,22 @@
     margin-top: 5px;
 }
 
-.container form .row .col .inputBox{
-    
+.container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: rgb(130, 53, 153);
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+    background: rgb(91, 40, 107);
 }
