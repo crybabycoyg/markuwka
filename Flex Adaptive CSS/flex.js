@@ -1,11 +1,12 @@
-$("#search-icon").click(function() {
-    $(".nav").toggleClass("search");
-    $(".nav").toggleClass("no-search");
-    $(".search-input").toggleClass("search-active");
-  });
+(function () {
+
+    var navButton = document.querySelector("#nav-menu-button");
+    var navUl = document.querySelector(".nav-ul");
   
-  $('.menu-toggle').click(function(){
-     $(".nav").toggleClass("mobile-nav");
-     $(this).toggleClass("is-active");
-  });
+    function toggleMobileMenu() {
+      navUl.classList.toggle("hide-ul");
+    }
+  
+    navButton.onclick = toggleMobileMenu;
+  }());
   
