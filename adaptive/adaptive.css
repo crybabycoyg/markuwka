@@ -10,32 +10,40 @@
     max-width: 1280px;
     margin: 0 auto;    
   }
+
   .logo, nav, main, aside {
     border: 2px black solid;
     padding: 10px;
   }
+
   .flex {
     display: flex;
   }
+
   aside .img {
     width: 70px;
     height: 70px;
   }
+
   aside>.flex {
     gap: 5px;
     flex-wrap: wrap;
     justify-content: space-around
   }
+
   .img {
     height: 300px;
     background-image: url(https://mf.b37mrtl.ru/russian/images/2019.01/article/5c40a6ad183561d7308b4587.jpg);
   }
+
   .jcsb {
     justify-content: space-between;
   }
+
   .aife {
     align-items: flex-end;
   }
+
   a {
     text-transform: uppercase;
     text-decoration: none;
@@ -48,14 +56,17 @@
   nav input {
     margin-left: auto;
   }
+
   footer {
     margin-top: 10px;
   }
+
   aside {
     margin-bottom: 10px;
     margin-left: 10px;
     width: 320px;
   }
+  
   ul {
     padding: 0;
     list-style: none;
