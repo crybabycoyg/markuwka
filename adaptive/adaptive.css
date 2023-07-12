@@ -43,7 +43,7 @@
   .aife {
     align-items: flex-end;
   }
-
+  
   a {
     text-transform: uppercase;
     text-decoration: none;
@@ -56,17 +56,14 @@
   nav input {
     margin-left: auto;
   }
-
   footer {
     margin-top: 10px;
   }
-
   aside {
     margin-bottom: 10px;
     margin-left: 10px;
     width: 320px;
   }
-  
   ul {
     padding: 0;
     list-style: none;
@@ -74,6 +71,14 @@
 
   .topFinder{
       display: none;
+  }
+
+  .sputniki{
+    background-image: url(https://minio.nplus1.ru/app-images/787737/645e15cb2d627_img_desktop.jpg);
+    width: 322px;
+    height: 267px;
+    background-size: contain;
+    margin: 20px 10px 10px 10px;
   }
   
   
