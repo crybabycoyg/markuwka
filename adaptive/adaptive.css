@@ -12,8 +12,9 @@
   }
 
   .logo, nav, main, aside {
-    border: 2px black solid;
+    border: 3px black solid;
     padding: 10px;
+    border-radius: 10px;
   }
 
   .flex {
@@ -79,6 +80,10 @@
     height: 267px;
     background-size: contain;
     margin: 20px 10px 10px 10px;
+  }
+
+  .navFinder{
+    border: 1px solid black;
   }
   
   
