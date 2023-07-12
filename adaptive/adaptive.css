@@ -50,21 +50,27 @@
     text-decoration: none;
     color: black;
   }
+
   nav {
     margin: 10px 0;
     gap: 10px;
   }
+
   nav input {
     margin-left: auto;
   }
+
   footer {
     margin-top: 10px;
+    text-align: center;
   }
+
   aside {
     margin-bottom: 10px;
     margin-left: 10px;
     width: 320px;
   }
+  
   ul {
     padding: 0;
     list-style: none;
